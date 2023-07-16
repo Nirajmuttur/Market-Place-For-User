@@ -1,0 +1,20 @@
+.category{
+    padding-left: 35%;
+    padding-top: 5%;
+}
+
+.category::after{
+    display: block;
+	position: absolute;
+	top: calc(95% + 10px);
+	left: 47%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 60px;
+	height: 5px;
+	background: #fe4c50;
+	content: '';
+}

@@ -1,0 +1,136 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } */
+
+.profile{
+  background: #f2f2f2;
+    margin: 100px auto;
+    width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 100px;
+    bottom: 5px;
+}
+
+.profile-content-left{
+    background: linear-gradient(
+      0deg,
+      rgb(10, 4, 60) 0%,
+      rgb(3, 80, 111) 100%
+    );
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.profile-text{
+    color: white;
+    position: relative;
+    left:8rem;
+    top:3rem;
+    right: 0;
+}
+
+.profile-avatar{
+    color: white;
+    position: relative;
+    top:65px;
+    left:14rem;
+    height: 10px;
+}
+
+.profile-links{
+    position: relative;
+    text-decoration:none;
+    color: white;
+    left:16.25rem;
+    top:10rem;
+
+}
+
+.profile-links-item{
+    border-radius: 10px;
+    border: 0;
+    display: block;
+    width: 15rem;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 10px;
+    color: #ffe3de;
+    background-color:inherit;
+
+}
+.profile-links-item:focus{
+    border-top-right-radius:0px ;
+    border-bottom-right-radius: 0px;
+    background-color:#a3ddcb ;
+    color: black;
+}
+
+.profile-content-right{
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: #a3ddcb;
+}
+
+.form-label2 {
+    color: black;
+  }
+
+.heading{
+    color: black!important;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+.info{
+  color: white;
+}
+.readOnly{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.read-only-btn{
+    width: 80%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 35px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.read-only-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+}

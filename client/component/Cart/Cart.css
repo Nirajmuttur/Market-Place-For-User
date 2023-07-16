@@ -1,0 +1,19 @@
+.cartitem{
+    top: 250px;
+}
+
+.cartitem2{
+    top: 150px;
+}
+
+.checkout2{
+    background-color: black;
+}
+
+.checkout2:hover{
+    cursor: pointer;
+}
+
+.clear:hover{
+    cursor: pointer;
+}
